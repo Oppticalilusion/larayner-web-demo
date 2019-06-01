@@ -20,7 +20,7 @@ gulp.task('watch', function() {
 
 	watch('./app/*.html', function() {
 		browserSync.reload();
-		console.log("Not the home page"); //Testing purposes for main index changes
+		console.log("Not the home page"); //Testing purposes for other page changes
 	});
 	
 	watch('./app/assets/styles/**/*.css', function() {
