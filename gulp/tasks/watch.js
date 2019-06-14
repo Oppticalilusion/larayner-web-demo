@@ -1,4 +1,5 @@
 // File is in charge of the gulp watch functionality
+// Runs tasks during file changes
 
 var gulp = require('gulp');
 var watch = require('gulp-watch');
